@@ -407,7 +407,6 @@ def train():
 
 def rf_predict_func(test_dat):
 	rfp = rf_model.predict(test_dat.reshape(1, -1))
-	n_i[6] = n_i[0] + n_i[1] + n_i[2] + n_i[3] + n_i[4] + n_i[5]
 	return int(rfp)
 
 def predict5():
@@ -597,10 +596,3 @@ def run_program(option):
 
 if __name__== "__main__":
 	run_menu()
-
-	try:
-		df = pd.read_csv("data.csv")
-		df.describe()
-		df.astype(np.float64)
-	except FileNotFoundError:
-		pass
