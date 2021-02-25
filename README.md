@@ -1,2 +1,0 @@
-# Lotto
- Lottery Number Prediction
