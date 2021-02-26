@@ -7,3 +7,5 @@ As of right now, there are evident issues with the algorithm. There is significa
 Usage is very simple through the command line UI.
 
 To train the model type '5' in the prompt.
+
+The purpose of the separate Web Scraping functions is to get the most up to date results, weekly, without causing duplicate data. The train_test_split function later took its duty of splitting the data into different sets. 
