@@ -1,17 +1,15 @@
-This project does not predict lottery numbers accurately, but it could be used as a basis for similar - less
-random tasks. 
+This project in unfinished, but functional. I will be updating the project as my schedule allows - currently it is ot a priority and I have other projects I am focusing on.
 
-2.5 thousand examples simply isn't enough to truly validate the algorithms viability against 1/>45,000,000 odds.
+Notes:
 
-As of right now, there are evident issues with the algorithm. There is significant bias meaning that the last
-number predicted is nearly always the same. 
+- The 3 scraping functions (getTrainData, getTestData, get21TestData) do not do as their name implies and split the data. This is handled by scikit later in the code. The three functions do however provide the most up-to-date, non-duplicate lottery numbers when 'First time setup' is run from the command line UI.
 
-Therefore I do plan on continuing to update the project, I will be implementing new models and testing new 
-parameters in an attempt to understand which could work better for this kind of a problem. I will possibly look
-at implementing dummy data, and I will certainly amend the default values that the algorithm uses. Hence,
-this project is far from finished, useful or even efficient - I do however hope it's interesting, and perhaps
-useful to someone. 
+- There are some minor sections of code that are not currently important to the codes functionality (for example round(float) of some of the numbers), but as it is updated the necessity of these functionaities may return.
 
-Usage is very simple through the command line UI.
+- While the program doesn't accurately predict lottery numbers, the project is a good template for similar machine learning projects.
 
-To train the model type '5' in the prompt.
+- The Random Forest classifier is not a good choice for this challenge, a new model will be introduced soon. 
+
+- To use the program, install the requirements in the requirements.txt file - and run the program in the console. Follow the instructions from there.
+
+- To train the model type '5' in the prompt.
