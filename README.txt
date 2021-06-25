@@ -1,4 +1,4 @@
-This project in unfinished, but functional. I will be updating the project as my schedule allows - currently it is ot a priority and I have other projects I am focusing on.
+This project is unfinished, but functional. I will be updating the project as my schedule allows - currently it is not a priority and I have other projects I am focusing on.
 
 Notes:
 
